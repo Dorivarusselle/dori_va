@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<title>calculator</title>
+</head>
+<body>
+<div class="container">
+	<div class="calbox">
+		<form name="calculator">
+			<input id="display" type="text" name="display" placeholder="0" >
+			<input type="button" class="jo" name="do" value="on/off" onclick="on_of()">
+			<br>
+			<input type="button" class="go" name="do" value="C" onclick="cancel()">
+			<input type="button" class="go" name="do" value="+/-" onclick="negative()" >
+			<input type="button" class="go" name="do" value="%" onclick="percentage()">
+			<input type="button" class="lo" name="do" value="/" onclick="division()">
+			<br>
+			<input type="button" class="do" name="do" value="7" onclick="seven()">
+			<input type="button" class="do" name="do" value="8" onclick="eight()">
+			<input type="button" class="do" name="do" value="9" onclick="nine()">
+			<input type="button" class="lo" name="do" value="x" onclick="multiplication()">
+			<br>
+			<input type="button" class="do" name="do" value="4" onclick="four()">
+			<input type="button" class="do" name="do" value="5" onclick="five()">
+			<input type="button" class="do" name="do" value="6" onclick="six()">
+			<input type="button" class="lo" name="do" value="-" onclick="minus()">
+			<br>
+			<input type="button" class="do" name="do" value="1" onclick="one()">
+			<input type="button" class="do" name="do" value="2" onclick="two()">
+			<input type="button" class="do" name="do" value="3" onclick="three()">
+			<input type="button" class="lo" name="do" value="+" onclick="addition()">
+			<br>
+			<input type="button" class="no" name="do" value="=" onclick="equalto()">
+			<input type="button" class="do" name="do" value="." onclick="dot()">
+			<input type="button" class="lo" name="do" value="0" onclick="zero()">
+			
+		</form>
+		
+	</div>
+	
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
